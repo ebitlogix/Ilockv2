@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <PackageId>ILock.Core.Extensions.AspNetCore.Mvc.Saml2</PackageId>
+	  <Version>0.0.3</Version>
+	  <Authors>RnD Team</Authors>
+	  <Company>RI</Company>
+	  <TargetFramework>net6.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>disable</Nullable>
+	  <Description>Contains Extension Methods for Configuring ILock and Registering ILock Saml2 Controllers</Description>
+	  <PackageTags>RI;Bitlogix;ILock;Core;ILock.Core;ILock.Core.AspNetCore; ILock.Core.Extensions.AspNetCore.Mvc.Saml2;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="ITfoxtec.Identity.Saml2" Version="4.7.1" />
+	  <PackageReference Include="ITfoxtec.Identity.Saml2.MvcCore" Version="4.7.1" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ILock.Core.Data\ILock.Core.Data.csproj" />
+    <ProjectReference Include="..\ILock.Core.Services\ILock.Core.Services.csproj" />
+  </ItemGroup>
+
+</Project>

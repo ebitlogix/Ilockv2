@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageId>ILock.Core.AspNetCore.Extensions</PackageId>
+		<Version>0.0.3</Version>
+		<Authors>RnD Team</Authors>
+		<Company>RI</Company>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<Description>Contains Extension Methods for Configuring ILock and Registering ILock Controllers</Description>
+		<PackageTags>RI;Bitlogix;ILock;Core;ILock.Core;ILock.Core.AspNetCore;ILock.Core.AspNetCore.Extensions;</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ILock.Core.Services\ILock.Core.Services.csproj" />
+	</ItemGroup>
+
+</Project>

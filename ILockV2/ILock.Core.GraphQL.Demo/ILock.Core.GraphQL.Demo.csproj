@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EFCore.NamingConventions" Version="6.0.0" />
+    <PackageReference Include="GraphQL.Server.Ui.Voyager" Version="5.1.1" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="12.3.2" />
+    <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="12.3.2" />
+	<PackageReference Include="HotChocolate.Data.EntityFramework" Version="12.3.2" />
+	<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ILock.Core.AspNetCore.Extensions\ILock.Core.AspNetCore.Extensions.csproj" />
+    <ProjectReference Include="..\ILock.Core.Data\ILock.Core.Data.csproj" />
+    <ProjectReference Include="..\ILock.Core.Extensions.Data\ILock.Core.Extensions.Data.csproj" />
+    <ProjectReference Include="..\ILock.Core.Extensions.SSO\ILock.Core.Extensions.AspNetCore.Mvc.Saml2.csproj" />
+    <ProjectReference Include="..\ILock.Core.GraphQL.Extensions\ILock.Core.GraphQL.Extensions.csproj" />
+    <ProjectReference Include="..\ILock.Core.Services.Extensions\ILock.Core.Services.Extensions.csproj" />
+    <ProjectReference Include="..\ILock.Core.Services\ILock.Core.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Constants\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Version>0.0.6</Version>
+		<Authors>RnD Team</Authors>
+		<Company>RI</Company>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<Description>Contains ServiceCollection Extensions for Configuring ILock</Description>
+		<PackageTags>RI;Bitlogix;ILock;Core;ILock.Core;ILock.Core.Services;ILock.Core.Services.Extensions</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Arguments\FeatureAssignmentArgument" />
+		<None Remove="Arguments\NewFile1.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="HotChocolate.AspNetCore" Version="12.3.2" />
+		<PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="12.3.2" />
+		<PackageReference Include="HotChocolate.Data.EntityFramework" Version="12.3.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ILock.Core.Services\ILock.Core.Services.csproj" />
+	</ItemGroup>
+</Project>

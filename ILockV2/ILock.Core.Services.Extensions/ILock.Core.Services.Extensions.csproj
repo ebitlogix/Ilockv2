@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageId>ILock.Core.Services.Extensions</PackageId>
+		<Version>0.0.3</Version>
+		<Authors>RnD Team</Authors>
+		<Company>RI</Company>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<Description>Contains ServiceCollection Extensions for Configuring ILock</Description>
+		<PackageTags>RI;Bitlogix;ILock;Core;ILock.Core;ILock.Core.Services;ILock.Core.Services.Extensions</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ILock.Core.Services\ILock.Core.Services.csproj" />
+	</ItemGroup>
+
+</Project>

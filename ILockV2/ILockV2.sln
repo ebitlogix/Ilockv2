@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core", "ILock.Core\ILock.Core.csproj", "{0C8EC31B-2FBF-4D94-9618-7CAB93820556}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.Data", "ILock.Core.Data\ILock.Core.Data.csproj", "{C8293AAD-1762-40B4-A9B1-F08B6032C4D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.Data.Extensions.SqlServer", "ILock.Core.Data.Extensions.SqlServer\ILock.Core.Data.Extensions.SqlServer.csproj", "{872AA548-C88B-45D2-B91A-3A0058C08B49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.Services", "ILock.Core.Services\ILock.Core.Services.csproj", "{85537ED6-497D-4BB9-9149-777A30AA0A21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.Test", "ILock.Core.Test\ILock.Core.Test.csproj", "{CFC62D2F-733E-433A-BD07-B81423B21A35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.Services.Extensions", "ILock.Core.Services.Extensions\ILock.Core.Services.Extensions.csproj", "{8D06C437-64D0-4E5E-B8B8-90B3333AA6B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.AspNetCore", "ILock.Core.AspNetCore\ILock.Core.AspNetCore.csproj", "{CC628806-D007-4666-8798-92777814C1DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.AspNetCore.Extensions", "ILock.Core.AspNetCore.Extensions\ILock.Core.AspNetCore.Extensions.csproj", "{6F8D8FB5-CBCA-4C36-90A4-CFC67456632A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.GraphQL.Demo", "ILock.Core.GraphQL.Demo\ILock.Core.GraphQL.Demo.csproj", "{84E9F5EB-5839-4674-BA81-1B1580A0AA85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{65BA4C14-D4F9-4E29-8BBF-2426EF19B97B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.Extensions.AspNetCore.Mvc.Saml2", "ILock.Core.Extensions.SSO\ILock.Core.Extensions.AspNetCore.Mvc.Saml2.csproj", "{DCA6B688-D13E-4BA5-A631-221EE86D726F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.GraphQL.Extensions", "ILock.Core.GraphQL.Extensions\ILock.Core.GraphQL.Extensions.csproj", "{7E8D1A91-33EE-4DAD-80B5-027A8492F9AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILock.Core.Extensions.Data", "ILock.Core.Extensions.Data\ILock.Core.Extensions.Data.csproj", "{653A0163-1C38-4D90-93E5-1B6228970C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C8EC31B-2FBF-4D94-9618-7CAB93820556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8EC31B-2FBF-4D94-9618-7CAB93820556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8EC31B-2FBF-4D94-9618-7CAB93820556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8EC31B-2FBF-4D94-9618-7CAB93820556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8293AAD-1762-40B4-A9B1-F08B6032C4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8293AAD-1762-40B4-A9B1-F08B6032C4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8293AAD-1762-40B4-A9B1-F08B6032C4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8293AAD-1762-40B4-A9B1-F08B6032C4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872AA548-C88B-45D2-B91A-3A0058C08B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872AA548-C88B-45D2-B91A-3A0058C08B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872AA548-C88B-45D2-B91A-3A0058C08B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872AA548-C88B-45D2-B91A-3A0058C08B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85537ED6-497D-4BB9-9149-777A30AA0A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85537ED6-497D-4BB9-9149-777A30AA0A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85537ED6-497D-4BB9-9149-777A30AA0A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85537ED6-497D-4BB9-9149-777A30AA0A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC62D2F-733E-433A-BD07-B81423B21A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC62D2F-733E-433A-BD07-B81423B21A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC62D2F-733E-433A-BD07-B81423B21A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC62D2F-733E-433A-BD07-B81423B21A35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D06C437-64D0-4E5E-B8B8-90B3333AA6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D06C437-64D0-4E5E-B8B8-90B3333AA6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D06C437-64D0-4E5E-B8B8-90B3333AA6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D06C437-64D0-4E5E-B8B8-90B3333AA6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC628806-D007-4666-8798-92777814C1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC628806-D007-4666-8798-92777814C1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC628806-D007-4666-8798-92777814C1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC628806-D007-4666-8798-92777814C1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8D8FB5-CBCA-4C36-90A4-CFC67456632A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8D8FB5-CBCA-4C36-90A4-CFC67456632A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8D8FB5-CBCA-4C36-90A4-CFC67456632A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8D8FB5-CBCA-4C36-90A4-CFC67456632A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E9F5EB-5839-4674-BA81-1B1580A0AA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E9F5EB-5839-4674-BA81-1B1580A0AA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E9F5EB-5839-4674-BA81-1B1580A0AA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E9F5EB-5839-4674-BA81-1B1580A0AA85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA6B688-D13E-4BA5-A631-221EE86D726F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA6B688-D13E-4BA5-A631-221EE86D726F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA6B688-D13E-4BA5-A631-221EE86D726F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA6B688-D13E-4BA5-A631-221EE86D726F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8D1A91-33EE-4DAD-80B5-027A8492F9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8D1A91-33EE-4DAD-80B5-027A8492F9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8D1A91-33EE-4DAD-80B5-027A8492F9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8D1A91-33EE-4DAD-80B5-027A8492F9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653A0163-1C38-4D90-93E5-1B6228970C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653A0163-1C38-4D90-93E5-1B6228970C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653A0163-1C38-4D90-93E5-1B6228970C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653A0163-1C38-4D90-93E5-1B6228970C99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF31E2A9-CBF1-42F8-B087-E5DCDE6CAF90}
+	EndGlobalSection
+EndGlobal
